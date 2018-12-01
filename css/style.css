@@ -1,0 +1,80 @@
+ /*bace classes */
+.container{
+	display: block;
+	width: 1170px;
+	margin: 0 auto;
+}
+.vertical-midlle{
+	display: inline-block;
+	vertical-align: middle;
+}
+.clear{
+	clear: both;
+}
+.clearfix::after{
+	content:  "";
+	clear: both;
+	display: block;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+/* bace classes */
+
+/* header */
+.header-class{
+	padding: 20px 0;
+}
+.header-class .logo{
+	width: 195px;
+}
+.social-a{
+	display: inline-block;
+	padding: 0 18px;
+	border-right-width: 1px;
+	border-right-color: #3D58A6;
+	border-right-style: solid;
+}
+.soc-li.search .social-a{
+	padding-right: 0;
+	border: 0;
+}
+/*.soc-li:nth-child(odd){
+	background-color: yellow;
+}*/
+.soc-li:last-child .social-a{
+	padding-right: 0;
+	border: 0;
+}
+/*.social-a::before{
+	content: "b";
+}
+.social-a::after{
+	content: "a";
+}
+*/
+.social-a img{
+	height: 30px;
+}
+.soc-ul{
+	padding-top: 15px;
+}
+.nav{
+	padding-top: 20px;
+	padding-right: 60px;
+}
+.nav-a{
+	font-family: "nino_mtavruli_bold";
+	padding: 0 15px;
+	font-size: 24px;
+}
+/* header 
+/* banner section */
+.banner-section{
+	background-color: #E6E6E6;
+	padding: 30px 0;
+}
+/* banner section */
