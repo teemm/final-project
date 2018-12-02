@@ -8,8 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<header class="header-class container clearfix">
-	<!-- logo -->
+<header class="header-class">
+	<div class="container clearfix">
+			<!-- logo -->
 	<a class="logo float-left" href="#">
 		<img src="img/logo.svg">
 	</a>
@@ -40,22 +41,115 @@
 	<nav class="nav float-right">
 		<ul class="nav-ul">
 			<li class="nav-li vertical-midlle">
-				<a class="nav-a" href="#">მთავარი</a>
+				<a class="nav-a" href="#">home</a>
 			</li>
 			<li class="nav-li vertical-midlle">
-				<a class="nav-a" href="#">სიახლები</a>
+				<a class="nav-a" href="#">news</a>
 			</li>
 			<li class="nav-li vertical-midlle">
-				<a class="nav-a" href="#">ჩვენს შესახებ</a>
+				<a class="nav-a" href="#">about as</a>
 			</li>
 			<li class="nav-li vertical-midlle">
-				<a class="nav-a" href="#">კონტაქტი</a>
+				<a class="nav-a" href="#">contact</a>
 			</li>
 		</ul>
 	</nav>
+	</div>
 </header>
 <section class="banner-section">
-	<img class="container" src="img/banner.jpg">
+	<div class="container relative">
+		<img src="img/banner.jpg">
+		<ul class="banner-list">
+			<li>things aren't always</li>
+			<li>#000000</li>
+			<li>or</li>
+			<li>#ffffff</li>
+		</ul>
+		<img class="white-logo" src="img/white-logo.svg">
+	</div>
 </section>
+<div class="overay"></div>
+<section class="video-section">
+	<div class="container">
+		<h1 class="vide-title">videos | <a href="#">all videos</a></h1>
+		<div class="video-block-wrapper clearfix">
+			<div class="video float-left relative">
+				<span>video left</span>
+			</div>
+			<div class="video float-right relative">
+				<span>video right</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="article-section">
+	<div class="container">
+		<h1 class="article-title">news | <a href="#">all news</a></h1>
+		<div class="article-wrapper clearfix">
+			<article class="article float-left">
+				<img src="img/design.jpg">
+				<h1 class="article-header">Interface Design</h1>
+			</article>
+			<article class="article float-left">
+				<img src="img/design.jpg">
+				<h1 class="article-header">Interface Design</h1>
+			</article>
+			<article class="article float-left">
+				<img src="img/design.jpg">
+				<h1 class="article-header">Interface Design</h1>
+			</article>
+			<article class="article float-left">
+				<img src="img/design.jpg">
+				<h1 class="article-header">Interface Design</h1>
+			</article>
+		</div>
+	</div>
+</section>
+
+<section class="featured-section">
+	<div class="container">
+		<h1 class="featured-title">Featured | <a href="#">view all featured media</a></h1>
+		<div class="article-wrapper clearfix">
+			<article class="featured-article float-left">
+				<h1 class="feature-article-title">Responsive Web Design</h1>
+				<div class="text-box-wrapper clearfix">
+					<img class="featured-img float-left" src="img/mobile.png">
+					<p class="featured-text float-right">
+						approach that suggests that design and development should respond to the <span>user's</span> behavior and environment based on screen size, platform and orientation.
+
+					</p>
+				</div>
+
+				<div class="read-more-wrapper clearfix">
+					<a class="float-right" href="#">read more</a>
+				</div>
+				
+			</article>
+			<article class="featured-article float-right">
+				<h1 class="feature-article-title">Responsive Web Design</h1>
+				<div class="text-box-wrapper clearfix">
+					<img class="featured-img float-left" src="img/mobile.png">
+					<p class="featured-text float-right">
+						approach that suggests that design and development should respond to the <span>user's</span> behavior and environment based on screen size, platform and orientation.
+					</p>
+				</div>
+
+				<div class="read-more-wrapper clearfix">
+					<a class="float-right" href="#">read more</a>
+				</div>
+				
+			</article>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+	<div class="container clearfix">
+		<div class="left-block float-left">©2017 hyper text murkup language</div>
+		<div class="right-block float-right">created by: ME</div>
+	</div>
+</footer>
+
 </body>
 </html>
